@@ -1,0 +1,81 @@
+## Ignorar arquivos temporários do Visual Studio, resultados de build
+## e arquivos gerados por extensões populares do Visual Studio.
+
+# Arquivos específicos do usuário
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resultados de compilação
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Cache do Visual Studio
+.vs/
+.vscode/
+
+# Resultados de testes
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Pacotes de build Android
+*.apk
+*.apks
+*.aab
+
+# NuGet
+*.nupkg
+# A pasta packages pode ser ignorada por causa do Package Restore
+**/[Pp]ackages/*
+# exceto build/, que é usada como alvo do MSBuild
+!**/[Pp]ackages/build/
+# Descomente se necessário
+# [Pp]ackages/
+
+# Microsoft Azure
+csx/
+*.build.csdef
+
+# Diretórios e arquivos de pacotes de apps Windows Store
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+# Outros arquivos locais
+*.dbmdl
+*.jfm
+*.bak
+*.tmp
+*.log
+*.pdb
+
+# Node.js (caso use JS/React Native junto)
+node_modules/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Específicos do Xamarin
+*.apk
+*.apks
+*.aab
+*.keystore
+*.keyset
